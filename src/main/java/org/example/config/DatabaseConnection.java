@@ -11,7 +11,7 @@ public class DatabaseConnection {
         String jdbcUrl = "jdbc:postgresql://localhost:5432/Northwind";
         String username = "postgres";
         String password = "root123";
-         connection = null;
+//         connection = null;
 
         try {
             Class.forName("org.postgresql.Driver");
